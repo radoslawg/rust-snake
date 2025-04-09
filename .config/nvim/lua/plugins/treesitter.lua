@@ -12,7 +12,7 @@ return { -- Highlight, edit, and navigate code
         'markdown_inline',
         'vim',
         'vimdoc',
-        'haskell',
+        'rust',
       },
       -- Autoinstall languages that are not installed
       auto_install = true,
