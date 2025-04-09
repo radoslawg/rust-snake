@@ -1,3 +1,5 @@
+[![Rust](https://github.com/radoslawg/rust-snake/actions/workflows/rust.yml/badge.svg)](https://github.com/radoslawg/rust-snake/actions/workflows/rust.yml)
+
 # Starting container
 
 Assuming dockerhub is confiugred as default container source:
