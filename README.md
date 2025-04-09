@@ -9,6 +9,8 @@ podman run --replace -dit --name 'rust-container' rust:latest '/bin/bash'
 podman exec -it rust-container /bin/bash
 ```
 
+Optionally, you could experiment with mounting volume at leat for `target` artifacts with something like `-v ./target:/workspace/rust-snake/target`.
+
 This should put you into bash inside *rust-container* container. You should then clone this repo and run `.config/setup_env.sh` script that will set up environment:
 
 ```sh
